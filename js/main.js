@@ -5,7 +5,7 @@ Hvert card á að innihalda a.m.k. 5 mismunandi upplýsingar
 Þessar upplýsingar eiga að koma úr array-um í JavaScript
 Notaðu lykkjur/loops til þess að birta öll “cards” á síðunni
 Á vefsíðunni á að vera hægt að fylla út form til þess að búa til nýtt card
-Hér gæti verið sniðugt að hugsa um að nota functions 
+Hér gæti verið sniðugt að hugsa um að nota functions */
 
 
 var myDiv = document.querySelector("div");
@@ -14,7 +14,7 @@ for(var i = 0; i<110; i+=5){ //for er fyrir hvern af einhverju
 var myvar = 0;
 while(myvar<2000){ // While á meðan my var er minna en 2000
    myvar+=13;      //þarf að vera minna en breytiþátturinn 2000 svo að endalaus loopa myndist ekki
-}*/
+}
 
 //CARD
 var names = ["Prins Póló", "Rauði Dauði", "Santana"];   //Array er leið til þess að geyma fleirri en eitt gildi í breytu.
